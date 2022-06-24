@@ -1,0 +1,27 @@
+nav {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+h4 {
+  margin: 0;
+  padding: 0;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+hr {
+  background-color: #91BFBC;
+  width: 60%;
+  height: 2px;
+  border: none;
+  margin-bottom: 20px;
+}
+li {
+  margin-top: 20px;
+  transition: 0.3s;
+}
+li:hover {
+  color: rgb(6, 48, 153);
+}

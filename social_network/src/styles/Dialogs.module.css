@@ -1,0 +1,22 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+}
+.dialogs_items ul{
+    max-height: 500px;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+.dialogs_items ul li{
+  background-color:#91BFBC;
+  color:white;
+  font-weight:700;
+  padding: 15px 20px;
+  margin: 10px;
+  border-radius:10px;
+  transition: 0.2s;
+}
+.dialogs_items ul li:hover{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
